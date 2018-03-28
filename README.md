@@ -1,3 +1,8 @@
+**This is Blue Pill; based on Red Pill.**
+
+**The only difference between the 2: Blue Pill has a blue color to the Matrix; Red Pill is green in color.**
+
+
 This is Red Pill, a 3D OpenGL "Matrix" screensaver for Mac OS X.
 Copyright © 2002-2012 mathew <meta@pobox.com>.
 
