@@ -2,16 +2,24 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10A432</string>
-		<string key="IBDocument.InterfaceBuilderVersion">732</string>
-		<string key="IBDocument.AppKitVersion">1038</string>
-		<string key="IBDocument.HIToolboxVersion">437.00</string>
+		<string key="IBDocument.InterfaceBuilderVersion">16097.2</string>
+		<string key="IBDocument.AppKitVersion">1894.20.140</string>
+		<string key="IBDocument.HIToolboxVersion">994.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">732</string>
+			<string key="NS.object.0">16097.2</string>
 		</object>
-		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
-			<integer value="7"/>
+		<array key="IBDocument.IntegratedClassDependencies">
+			<string>NSBox</string>
+			<string>NSButton</string>
+			<string>NSButtonCell</string>
+			<string>NSCustomObject</string>
+			<string>NSSlider</string>
+			<string>NSSliderCell</string>
+			<string>NSTextField</string>
+			<string>NSTextFieldCell</string>
+			<string>NSView</string>
+			<string>NSWindowTemplate</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -37,24 +45,27 @@
 				<object class="NSMutableString" key="NSViewClass">
 					<characters key="NS.bytes">View</characters>
 				</object>
-				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
+				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{213, 107}</string>
 				<object class="NSView" key="NSWindowView" id="706474634">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
+					<nil key="NSNibTouchBar"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="NSTextField" id="478417312">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{17, 326}, {62, 17}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="153553979">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">Red Pill</string>
 								<object class="NSFont" key="NSSupport" id="724749707">
-									<string key="NSName">LucidaGrande</string>
+									<bool key="IBIsSystemFont">YES</bool>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
@@ -65,32 +76,130 @@
 									<string key="NSColorName">controlColor</string>
 									<object class="NSColor" key="NSColor">
 										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+										<bytes key="NSWhite">MC42MDI3MTUzNzMAA</bytes>
+										<object class="NSColorSpace" key="NSCustomColorSpace" id="417199719">
+											<int key="NSID">9</int>
+											<int key="NSModel">0</int>
+											<object class="NSData" key="NSICC">
+												<bytes key="NS.bytes">AAARaGFwcGwCAAAAbW50ckdSQVlYWVogB9wACAAXAA8ALgAPYWNzcEFQUEwAAAAAbm9uZQAAAAAAAAAA
+AAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAFZGVzYwAAAMAAAAB5ZHNjbQAAATwAAAfoY3BydAAACSQAAAAjd3RwdAAACUgAAAAU
+a1RSQwAACVwAAAgMZGVzYwAAAAAAAAAfR2VuZXJpYyBHcmF5IEdhbW1hIDIuMiBQcm9maWxlAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAALgAAAYRkYURLAAAAOAAAAbJjYUVT
+AAAAOAAAAep2aVZOAAAAQAAAAiJwdEJSAAAASgAAAmJ1a1VBAAAALAAAAqxmckZVAAAAPgAAAthodUhV
+AAAANAAAAxZ6aFRXAAAAHgAAA0puYk5PAAAAOgAAA2hjc0NaAAAAKAAAA6JoZUlMAAAAJAAAA8ppdElU
+AAAATgAAA+5yb1JPAAAAKgAABDxkZURFAAAATgAABGZrb0tSAAAAIgAABLRzdlNFAAAAOAAAAbJ6aENO
+AAAAHgAABNZqYUpQAAAAJgAABPRlbEdSAAAAKgAABRpwdFBPAAAAUgAABURubE5MAAAAQAAABZZlc0VT
+AAAATAAABdZ0aFRIAAAAMgAABiJ0clRSAAAAJAAABlRmaUZJAAAARgAABnhockhSAAAAPgAABr5wbFBM
+AAAASgAABvxydVJVAAAAOgAAB0ZlblVTAAAAPAAAB4BhckVHAAAALAAAB7wAVgFhAGUAbwBiAGUAYwBu
+AOEAIABzAGkAdgDhACAAZwBhAG0AYQAgADIALAAyAEcAZQBuAGUAcgBpAHMAawAgAGcAcgDlACAAMgAs
+ADIAIABnAGEAbQBtAGEAcAByAG8AZgBpAGwARwBhAG0AbQBhACAAZABlACAAZwByAGkAcwBvAHMAIABn
+AGUAbgDoAHIAaQBjAGEAIAAyAC4AMgBDHqUAdQAgAGgA7ABuAGgAIABNAOAAdQAgAHgA4QBtACAAQwBo
+AHUAbgBnACAARwBhAG0AbQBhACAAMgAuADIAUABlAHIAZgBpAGwAIABHAGUAbgDpAHIAaQBjAG8AIABk
+AGEAIABHAGEAbQBhACAAZABlACAAQwBpAG4AegBhAHMAIAAyACwAMgQXBDAEMwQwBDsETAQ9BDAAIABH
+AHIAYQB5AC0EMwQwBDwEMAAgADIALgAyAFAAcgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABn
+AHIAaQBzACAAZwBhAG0AbQBhACAAMgAsADIAwQBsAHQAYQBsAOEAbgBvAHMAIABzAHoA/AByAGsAZQAg
+AGcAYQBtAG0AYQAgADIALgAykBp1KHBwlo5RSV6mACAAMgAuADIAIIJyX2ljz4/wAEcAZQBuAGUAcgBp
+AHMAawAgAGcAcgDlACAAZwBhAG0AbQBhACAAMgAsADIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A4QAg
+AWEAZQBkAOEAIABnAGEAbQBhACAAMgAuADIF0gXQBd4F1AAgBdAF5AXVBegAIAXbBdwF3AXZACAAMgAu
+ADIAUAByAG8AZgBpAGwAbwAgAGcAcgBpAGcAaQBvACAAZwBlAG4AZQByAGkAYwBvACAAZABlAGwAbABh
+ACAAZwBhAG0AbQBhACAAMgAsADIARwBhAG0AYQAgAGcAcgBpACAAZwBlAG4AZQByAGkAYwEDACAAMgAs
+ADIAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAARwByAGEAdQBzAHQAdQBmAGUAbgAtAFAAcgBvAGYAaQBs
+ACAARwBhAG0AbQBhACAAMgAsADLHfLwYACDWjMDJACCsELnIACAAMgAuADIAINUEuFzTDMd8Zm6QGnBw
+XqZ8+2VwACAAMgAuADIAIGPPj/Blh072TgCCLDCwMOwwpDCsMPMw3gAgADIALgAyACAw1zDtMNUwoTCk
+MOsDkwO1A70DuQO6A8wAIAOTA7oDwQO5ACADkwOsA7wDvAOxACAAMgAuADIAUABlAHIAZgBpAGwAIABn
+AGUAbgDpAHIAaQBjAG8AIABkAGUAIABjAGkAbgB6AGUAbgB0AG8AcwAgAGQAYQAgAEcAYQBtAG0AYQAg
+ADIALAAyAEEAbABnAGUAbQBlAGUAbgAgAGcAcgBpAGoAcwAgAGcAYQBtAG0AYQAgADIALAAyAC0AcABy
+AG8AZgBpAGUAbABQAGUAcgBmAGkAbAAgAGcAZQBuAOkAcgBpAGMAbwAgAGQAZQAgAGcAYQBtAG0AYQAg
+AGQAZQAgAGcAcgBpAHMAZQBzACAAMgAsADIOIw4xDgcOKg41DkEOAQ4hDiEOMg5ADgEOIw4iDkwOFw4x
+DkgOJw5EDhsAIAAyAC4AMgBHAGUAbgBlAGwAIABHAHIAaQAgAEcAYQBtAGEAIAAyACwAMgBZAGwAZQBp
+AG4AZQBuACAAaABhAHIAbQBhAGEAbgAgAGcAYQBtAG0AYQAgADIALAAyACAALQBwAHIAbwBmAGkAaQBs
+AGkARwBlAG4AZQByAGkBDQBrAGkAIABHAHIAYQB5ACAARwBhAG0AbQBhACAAMgAuADIAIABwAHIAbwBm
+AGkAbABVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAHMAegBhAHIAbwFbAGMAaQAg
+AGcAYQBtAG0AYQAgADIALAAyBB4EMQRJBDAETwAgBEEENQRABDAETwAgBDMEMAQ8BDwEMAAgADIALAAy
+AC0EPwRABD4ERAQ4BDsETABHAGUAbgBlAHIAaQBjACAARwByAGEAeQAgAEcAYQBtAG0AYQAgADIALgAy
+ACAAUAByAG8AZgBpAGwAZQY6BicGRQYnACAAMgAuADIAIAZEBkgGRgAgBjEGRQYnBi8GSgAgBjkGJwZF
+dGV4dAAAAABDb3B5cmlnaHQgQXBwbGUgSW5jLiwgMjAxMgAAWFlaIAAAAAAAAPNRAAEAAAABFsxjdXJ2
+AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8
+AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZ
+AR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHy
+AfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMW
+AyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSM
+BJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZ
+BmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiC
+CJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsL
+CyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34
+DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFP
+EW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUS
+FTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlF
+GWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3s
+HhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMK
+IzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSii
+KNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63
+Lu4vJC9aL5Evxy/+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVN
+NYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8Jzxl
+PKQ84z0iPWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQD
+REdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwq
+THJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1Tb
+VShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4a
+XmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fp
+aD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJL
+cqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1B
+faF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjO
+iTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0
+lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2
+oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8W
+r4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70V
+vY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2
+zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
+24DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl
+63Dr++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3
+/Af8mP0p/br+S/7c/23//w</bytes>
+											</object>
+										</object>
+										<characters key="NSComponents">0.6666666667 1</characters>
 									</object>
 								</object>
 								<object class="NSColor" key="NSTextColor" id="43208114">
 									<int key="NSColorSpace">6</int>
 									<string key="NSCatalogName">System</string>
 									<string key="NSColorName">controlTextColor</string>
-									<object class="NSColor" key="NSColor">
+									<object class="NSColor" key="NSColor" id="73587696">
 										<int key="NSColorSpace">3</int>
 										<bytes key="NSWhite">MAA</bytes>
+										<reference key="NSCustomColorSpace" ref="417199719"/>
+										<characters key="NSComponents">0 1</characters>
 									</object>
 								</object>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="598519224">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{334, 312}, {100, 28}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="840381158">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string type="base64-UTF8" key="NSContents">MS41LjAKA</string>
 								<object class="NSFont" key="NSSupport" id="26">
-									<string key="NSName">LucidaGrande</string>
+									<bool key="IBIsSystemFont">YES</bool>
 									<double key="NSSize">11</double>
 									<int key="NSfFlags">3100</int>
 								</object>
@@ -98,20 +207,34 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSButton" id="93037649">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{264, 102}, {124, 18}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="74828123">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents">常にトップで開始</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="93037649"/>
-								<int key="NSButtonFlags">1211912703</int>
+								<int key="NSButtonFlags">1211912480</int>
 								<int key="NSButtonFlags2">268435458</int>
 								<object class="NSButtonImageSource" key="NSAlternateImage" id="678523006">
 									<string key="NSImageName">NSSwitch</string>
@@ -120,84 +243,153 @@
 								<string key="NSKeyEquivalent"/>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">3</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">1</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 						<object class="NSTextField" id="92976267">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{40, 265}, {34, 13}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="374421655">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">少ない</string>
-								<object class="NSFont" key="NSSupport" id="912305688">
-									<string key="NSName">LucidaGrande</string>
+								<object class="NSFont" key="NSSupport" id="24">
+									<bool key="IBIsSystemFont">YES</bool>
 									<double key="NSSize">10</double>
-									<int key="NSfFlags">2843</int>
+									<int key="NSfFlags">1044</int>
 								</object>
 								<reference key="NSControlView" ref="92976267"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="512735005">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{155, 264}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="967757144">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">多く</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="512735005"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="135593733">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{40, 196}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="577973693">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">遅い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="135593733"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="786665733">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{155, 196}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="272772349">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">速い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="786665733"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSSlider" id="179958194">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{38, 208}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="536451484">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -217,15 +409,26 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSTextField" id="491770349">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{37, 302}, {48, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="902229735">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">揮散</string>
 								<reference key="NSSupport" ref="26"/>
@@ -233,15 +436,29 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="720790855">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{37, 234}, {48, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="329200952">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">速度</string>
 								<reference key="NSSupport" ref="26"/>
@@ -249,15 +466,30 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSSlider" id="485944343">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{38, 276}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="896258777">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -273,47 +505,86 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSTextField" id="726683868">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{40, 126}, {42, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="811621456">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">浅い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="726683868"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="341880055">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{155, 126}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="631161265">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">深い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="341880055"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="1012254660">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{37, 164}, {48, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="984145781">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">深さ</string>
 								<reference key="NSSupport" ref="26"/>
@@ -321,15 +592,30 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSSlider" id="95395398">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{38, 138}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="769806113">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -345,15 +631,26 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSBox" id="866490542">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{223, 60}, {5, 256}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<string key="NSOffsets">{0, 0}</string>
 							<object class="NSTextFieldCell" key="NSTitleCell">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents">Box</string>
 								<reference key="NSSupport" ref="724749707"/>
@@ -364,11 +661,15 @@
 									<object class="NSColor" key="NSColor">
 										<int key="NSColorSpace">3</int>
 										<bytes key="NSWhite">MQA</bytes>
+										<reference key="NSCustomColorSpace" ref="417199719"/>
+										<characters key="NSComponents">1 1</characters>
 									</object>
 								</object>
 								<object class="NSColor" key="NSTextColor">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MCAwLjgAA</bytes>
+									<int key="NSColorSpace">6</int>
+									<string key="NSCatalogName">System</string>
+									<string key="NSColorName">labelColor</string>
+									<reference key="NSColor" ref="73587696"/>
 								</object>
 							</object>
 							<int key="NSBorderType">3</int>
@@ -378,12 +679,15 @@
 						</object>
 						<object class="NSSlider" id="811147794">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{263, 138}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="403299909">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -399,31 +703,57 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSTextField" id="29769235">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{265, 264}, {50, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="658386434">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">遅い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="29769235"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSSlider" id="995017967">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{263, 276}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="820964040">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -439,15 +769,26 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSTextField" id="607782322">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{262, 302}, {56, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="14000418">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">循環</string>
 								<reference key="NSSupport" ref="26"/>
@@ -455,15 +796,29 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="71499366">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{262, 164}, {48, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="845361092">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">カーソル</string>
 								<reference key="NSSupport" ref="26"/>
@@ -471,15 +826,30 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSSlider" id="503146570">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{263, 208}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="1007716697">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -495,15 +865,26 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSTextField" id="972094517">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{262, 234}, {48, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="411363662">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">落下</string>
 								<reference key="NSSupport" ref="26"/>
@@ -511,111 +892,209 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="642438163">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{380, 126}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="138552119">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">速い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="642438163"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="324259040">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{380, 196}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="612495881">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">速い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="324259040"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="56429603">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{265, 196}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="455775937">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">遅い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="56429603"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="275170972">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{265, 126}, {42, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="299220158">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">遅い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="275170972"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="802675352">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{374, 264}, {37, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="703218407">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">速い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="802675352"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="654947827">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{40, 60}, {42, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="153128258">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">なし</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="654947827"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="1031928480">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{37, 98}, {48, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="801765255">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">4194304</int>
 								<string key="NSContents">霧</string>
 								<reference key="NSSupport" ref="26"/>
@@ -623,31 +1102,60 @@
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSTextField" id="845880469">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{155, 60}, {31, 14}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="732451771">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">71303168</int>
 								<string key="NSContents">濃い</string>
-								<reference key="NSSupport" ref="912305688"/>
+								<reference key="NSSupport" ref="24"/>
 								<reference key="NSControlView" ref="845880469"/>
 								<reference key="NSBackgroundColor" ref="756758507"/>
 								<reference key="NSTextColor" ref="43208114"/>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">1</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
+							<int key="NSTextFieldAlignmentRectInsetsVersion">2</int>
+							<int key="NSTextFieldLineBreakStrategyVersion">1</int>
+							<int key="NSLineBreakStrategy">1</int>
 						</object>
 						<object class="NSSlider" id="747984476">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{38, 72}, {150, 21}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="1019615802">
-								<int key="NSCellFlags">67501824</int>
+								<int key="NSCellFlags">67371264</int>
 								<int key="NSCellFlags2">0</int>
 								<object class="NSMutableString" key="NSContents">
 									<characters key="NS.bytes"/>
@@ -663,148 +1171,226 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">YES</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">70</int>
 						</object>
 						<object class="NSButton" id="51160924">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{353, 12}, {84, 32}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="955318234">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">137887744</int>
 								<string key="NSContents">OK</string>
 								<reference key="NSSupport" ref="724749707"/>
 								<reference key="NSControlView" ref="51160924"/>
-								<int key="NSButtonFlags">-2038284033</int>
+								<int key="NSButtonFlags">-2038415328</int>
 								<int key="NSButtonFlags2">1</int>
-								<object class="NSFont" key="NSAlternateImage" id="186975658">
-									<string key="NSName">Helvetica</string>
-									<double key="NSSize">13</double>
-									<int key="NSfFlags">16</int>
-								</object>
 								<string key="NSAlternateContents"/>
 								<string type="base64-UTF8" key="NSKeyEquivalent">DQ</string>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">7</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">2</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 						<object class="NSButton" id="684444332">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{248, 12}, {105, 32}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="499091104">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">137887744</int>
 								<string key="NSContents">キャンセル</string>
 								<reference key="NSSupport" ref="724749707"/>
 								<reference key="NSControlView" ref="684444332"/>
-								<int key="NSButtonFlags">-2038284033</int>
+								<int key="NSButtonFlags">-2038415328</int>
 								<int key="NSButtonFlags2">1</int>
-								<reference key="NSAlternateImage" ref="186975658"/>
 								<string key="NSAlternateContents"/>
 								<string type="base64-UTF8" key="NSKeyEquivalent">Gw</string>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">7</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">2</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 						<object class="NSButton" id="186753657">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{19, 12}, {92, 32}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="842130756">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">137887744</int>
 								<string key="NSContents">リセット</string>
 								<reference key="NSSupport" ref="724749707"/>
 								<reference key="NSControlView" ref="186753657"/>
-								<int key="NSButtonFlags">-2038284033</int>
+								<int key="NSButtonFlags">-2038415328</int>
 								<int key="NSButtonFlags2">268435457</int>
-								<reference key="NSAlternateImage" ref="186975658"/>
 								<string key="NSAlternateContents"/>
 								<string key="NSKeyEquivalent">R</string>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">7</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">2</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 						<object class="NSButton" id="397366242">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{111, 12}, {139, 32}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="1030143359">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">137887744</int>
-								<string key="NSContents">RedPill について</string>
+								<string key="NSContents">BluePill について</string>
 								<reference key="NSSupport" ref="724749707"/>
 								<reference key="NSControlView" ref="397366242"/>
-								<int key="NSButtonFlags">-2038284033</int>
+								<int key="NSButtonFlags">-2038415328</int>
 								<int key="NSButtonFlags2">268435457</int>
-								<reference key="NSAlternateImage" ref="186975658"/>
 								<string key="NSAlternateContents"/>
 								<string key="NSKeyEquivalent">A</string>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">7</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">0</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">2</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 						<object class="NSButton" id="366932852">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{264, 82}, {132, 18}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="873509761">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents">メインスクリーンのみ</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="366932852"/>
-								<int key="NSButtonFlags">1211912703</int>
+								<int key="NSButtonFlags">1211912480</int>
 								<int key="NSButtonFlags2">2</int>
 								<reference key="NSAlternateImage" ref="678523006"/>
 								<string key="NSAlternateContents"/>
 								<string key="NSKeyEquivalent"/>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">3</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">1</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 						<object class="NSButton" id="44413275">
 							<reference key="NSNextResponder" ref="706474634"/>
+							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
 							<string key="NSFrame">{{264, 62}, {99, 18}}</string>
 							<reference key="NSSuperview" ref="706474634"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="736144077">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">131072</int>
 								<string key="NSContents">スプーンを有効</string>
 								<reference key="NSSupport" ref="26"/>
 								<reference key="NSControlView" ref="44413275"/>
-								<int key="NSButtonFlags">1211912703</int>
+								<int key="NSButtonFlags">1211912480</int>
 								<int key="NSButtonFlags2">2</int>
 								<reference key="NSAlternateImage" ref="678523006"/>
 								<string key="NSAlternateContents"/>
 								<string key="NSKeyEquivalent"/>
 								<int key="NSPeriodicDelay">200</int>
 								<int key="NSPeriodicInterval">25</int>
+								<int key="NSAuxButtonType">3</int>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+							<int key="NSControlSize">1</int>
+							<bool key="NSControlContinuous">NO</bool>
+							<bool key="NSControlRefusesFirstResponder">NO</bool>
+							<bool key="NSControlUsesSingleLineMode">NO</bool>
+							<int key="NSControlTextAlignment">0</int>
+							<int key="NSControlLineBreakMode">0</int>
+							<int key="NSControlWritingDirection">-1</int>
+							<int key="NSControlSendActionMask">4</int>
 						</object>
 					</array>
 					<string key="NSFrameSize">{451, 363}</string>
-					<reference key="NSSuperview"/>
+					<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 832}}</string>
 				<string key="NSMinSize">{213, 129}</string>
-				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array class="NSMutableArray" key="connectionRecords">
+			<array key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">window</string>
@@ -1504,6 +2090,9 @@
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="-3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<object class="NSMutableDictionary" key="101.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1513,9 +2102,8 @@
 					</object>
 				</object>
 				<string key="101.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="101.ImportedFromIB2"/>
+				<real value="46" key="102.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="102.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="102.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="103.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1525,11 +2113,10 @@
 					</object>
 				</object>
 				<string key="103.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="103.ImportedFromIB2"/>
+				<real value="52" key="104.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="104.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="104.ImportedFromIB2"/>
+				<real value="44" key="105.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="105.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="105.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="106.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1539,25 +2126,24 @@
 					</object>
 				</object>
 				<string key="106.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="106.ImportedFromIB2"/>
+				<real value="44" key="107.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="107.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="107.ImportedFromIB2"/>
+				<real value="27" key="108.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="108.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="108.ImportedFromIB2"/>
+				<real value="27" key="109.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="109.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="109.ImportedFromIB2"/>
+				<real value="27" key="110.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="110.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="110.ImportedFromIB2"/>
+				<real value="38" key="111.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="111.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="111.ImportedFromIB2"/>
+				<real value="33" key="112.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="112.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="112.ImportedFromIB2"/>
+				<real value="38" key="119.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="119.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="119.ImportedFromIB2"/>
+				<real value="44" key="120.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="120.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="120.ImportedFromIB2"/>
+				<real value="27" key="121.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="121.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="121.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="122.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1567,11 +2153,8 @@
 					</object>
 				</object>
 				<string key="122.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="122.ImportedFromIB2"/>
 				<string key="124.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="124.ImportedFromIB2"/>
 				<string key="125.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="125.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="127.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1581,7 +2164,6 @@
 					</object>
 				</object>
 				<string key="127.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="127.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="128.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1591,9 +2173,8 @@
 					</object>
 				</object>
 				<string key="128.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="128.ImportedFromIB2"/>
+				<real value="58" key="14.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="14.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="14.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="142.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1603,9 +2184,7 @@
 					</object>
 				</object>
 				<string key="142.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="142.ImportedFromIB2"/>
 				<string key="145.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="145.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="15.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1614,8 +2193,8 @@
 						<string key="toolTip">Copyright © mathew &lt;meta@pobox.com&gt; 2003</string>
 					</object>
 				</object>
+				<real value="96" key="15.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="15.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="15.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="16.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1625,7 +2204,43 @@
 					</object>
 				</object>
 				<string key="16.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="16.ImportedFromIB2"/>
+				<string key="162.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="163.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="164.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="165.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="166.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="167.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="168.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="169.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="170.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="171.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="172.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="173.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="174.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="175.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="176.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="177.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="178.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="179.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="180.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="181.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="182.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="183.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="184.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="185.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="186.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="187.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="188.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="189.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="190.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="191.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="192.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="193.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="194.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="195.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="196.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="197.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="198.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<object class="NSMutableDictionary" key="30.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1635,15 +2250,14 @@
 					</object>
 				</object>
 				<string key="30.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="30.ImportedFromIB2"/>
+				<real value="30" key="34.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="34.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="34.ImportedFromIB2"/>
+				<real value="27" key="35.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="35.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="35.ImportedFromIB2"/>
+				<real value="27" key="41.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="41.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="41.ImportedFromIB2"/>
+				<real value="27" key="42.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="42.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="43.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1653,25 +2267,19 @@
 					</object>
 				</object>
 				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="43.ImportedFromIB2"/>
-				<string key="6.IBEditorWindowLastContentRect">{{0, 471}, {451, 363}}</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="6.IBWindowTemplateEditedContentRect">{{0, 471}, {451, 363}}</string>
-				<boolean value="YES" key="6.ImportedFromIB2"/>
-				<boolean value="YES" key="6.windowTemplate.hasMinSize"/>
-				<string key="6.windowTemplate.minSize">{213, 107}</string>
+				<real value="44" key="62.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="62.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="62.ImportedFromIB2"/>
+				<real value="44" key="63.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="63.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="63.ImportedFromIB2"/>
 				<string key="7.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="7.ImportedFromIB2"/>
+				<real value="38" key="73.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="73.ImportedFromIB2"/>
+				<real value="27" key="74.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="74.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="74.ImportedFromIB2"/>
+				<real value="44" key="75.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
 				<string key="75.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="75.ImportedFromIB2"/>
 				<object class="NSMutableDictionary" key="76.IBAttributePlaceholdersKey">
 					<string key="NS.key.0">ToolTip</string>
 					<object class="IBToolTipAttribute" key="NS.object.0">
@@ -1681,9 +2289,7 @@
 					</object>
 				</object>
 				<string key="76.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="76.ImportedFromIB2"/>
 				<string key="81.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="81.ImportedFromIB2"/>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
@@ -1691,520 +2297,95 @@
 			<nil key="sourceID"/>
 			<int key="maxID">198</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">FirstResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBUserSource</string>
-						<string key="minorKey"/>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MatrixPrefsWindow</string>
-					<string key="superclassName">NSWindowController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="about:">id</string>
-						<string key="cancel:">id</string>
-						<string key="ok:">id</string>
-						<string key="reset:">id</string>
-						<string key="spoonclick:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="cursor">NSSlider</string>
-						<string key="cycling">NSSlider</string>
-						<string key="depth">NSSlider</string>
-						<string key="falling">NSSlider</string>
-						<string key="fog">NSSlider</string>
-						<string key="mainonly">NSButton</string>
-						<string key="spoon">NSButton</string>
-						<string key="strips">NSSlider</string>
-						<string key="topstart">NSButton</string>
-						<string key="velocity">NSSlider</string>
-						<string key="version">NSTextField</string>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">MatrixPrefsWindow.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MatrixPrefsWindow</string>
-					<string key="superclassName">NSWindowController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBUserSource</string>
-						<string key="minorKey"/>
-					</object>
-				</object>
-			</array>
-			<array class="NSMutableArray" key="referencedPartialClassDescriptionsV3.2+">
-				<object class="IBPartialClassDescription">
-					<string key="className">NSActionCell</string>
-					<string key="superclassName">NSCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSActionCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<string key="superclassName">NSResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="72538287">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSApplication.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="198853736">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSApplicationScripting.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="362861140">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSColorPanel.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSHelpManager.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSPageLayout.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSUserInterfaceItemSearching.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSBox</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSBox.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSButton</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSButtonCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSButtonCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSCell</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSControl</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="401738240">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSControl.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSFormatter</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSFormatter.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSMenu</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="1010472195">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMenu.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSAccessibility.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<reference key="sourceIdentifier" ref="72538287"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<reference key="sourceIdentifier" ref="198853736"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<reference key="sourceIdentifier" ref="362861140"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<reference key="sourceIdentifier" ref="401738240"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSDictionaryController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSDragging.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSFontManager.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSFontPanel.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSKeyValueBinding.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<reference key="sourceIdentifier" ref="1010472195"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSNibLoading.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSOutlineView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSPasteboard.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSavePanel.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTableView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSToolbarItem.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="994021405">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSArchiver.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSClassDescription.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSError.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSFileManager.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSKeyValueCoding.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSKeyValueObserving.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSKeyedArchiver.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSObject.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSObjectScripting.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSPortCoder.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSRunLoop.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSScriptClassDescription.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSScriptKeyValueCoding.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSScriptObjectSpecifiers.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSScriptWhoseTests.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSThread.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSURL.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSURLConnection.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSURLDownload.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSInterfaceStyle.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSResponder</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSResponder.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSlider</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSlider.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSliderCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSliderCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTextField</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTextField.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTextFieldCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTextFieldCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSClipView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMenuItem.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSRulerView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSView</string>
-					<string key="superclassName">NSResponder</string>
-					<reference key="sourceIdentifier" ref="994021405"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSWindow</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSDrawer.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSWindow</string>
-					<string key="superclassName">NSResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSWindow.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSWindow</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSWindowScripting.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSWindowController</string>
-					<string key="superclassName">NSResponder</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">showWindow:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSWindowController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
+		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<integer value="1060" key="NS.object.0"/>
 		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<integer value="4600" key="NS.object.0"/>
+		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<nil key="IBDocument.LastKnownRelativeProjectPath"/>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
+	<classes>
+		<class name="IBActionConnection">
+			<fallbacks/>
+		</class>
+		<class name="IBClassDescriber">
+			<fallbacks/>
+		</class>
+		<class name="IBConnectionRecord">
+			<fallbacks/>
+		</class>
+		<class name="IBMutableOrderedSet">
+			<fallbacks/>
+		</class>
+		<class name="IBObjectContainer">
+			<fallbacks/>
+		</class>
+		<class name="IBObjectRecord">
+			<fallbacks/>
+		</class>
+		<class name="IBOutletConnection">
+			<fallbacks/>
+		</class>
+		<class name="IBToolTipAttribute">
+			<fallbacks/>
+		</class>
+		<class name="NSBox">
+			<fallbacks/>
+		</class>
+		<class name="NSButton">
+			<fallbacks/>
+		</class>
+		<class name="NSButtonCell">
+			<fallbacks/>
+		</class>
+		<class name="NSButtonImageSource">
+			<fallbacks/>
+		</class>
+		<class name="NSColor">
+			<fallbacks/>
+		</class>
+		<class name="NSColorSpace">
+			<fallbacks/>
+		</class>
+		<class name="NSCustomObject">
+			<fallbacks/>
+		</class>
+		<class name="NSData">
+			<fallbacks/>
+		</class>
+		<class name="NSFont">
+			<fallbacks/>
+		</class>
+		<class name="NSMutableDictionary">
+			<fallbacks/>
+		</class>
+		<class name="NSMutableString">
+			<fallbacks/>
+		</class>
+		<class name="NSSlider">
+			<fallbacks/>
+		</class>
+		<class name="NSSliderCell">
+			<fallbacks/>
+		</class>
+		<class name="NSTextField">
+			<fallbacks/>
+		</class>
+		<class name="NSTextFieldCell">
+			<fallbacks/>
+		</class>
+		<class name="NSView">
+			<fallbacks/>
+		</class>
+		<class name="NSWindowTemplate">
+			<fallbacks/>
+		</class>
+	</classes>
 </archive>

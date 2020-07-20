@@ -223,10 +223,10 @@ int i;
    for (i=0; i < maxi; i++) {
       for (c = 0; c < 4; c++) {
          // Some shade of green if cell is not empty
-         colorArray[16*i + 4*c + 1] = (cellState[i] == 0) ? 0.0 : g;
+         colorArray[16*i + 4*c + 2] = (cellState[i] == 0) ? 0.0 : g;
          // Cells which are very bright are slightly whitened
          colorArray[16*i + 4*c + 0] = ((g > 0.7) && (cellState[i] != 0)) ? (g - 0.6) : 0.0;
-         colorArray[16*i + 4*c + 2] = ((g > 0.7) && (cellState[i] != 0)) ? (g - 0.6) : 0.0;
+         colorArray[16*i + 4*c + 1] = ((g > 0.7) && (cellState[i] != 0)) ? (g - 0.6) : 0.0;
          // Transparent if cell is empty, otherwise opaque
          colorArray[16*i + 4*c + 3] = (cellState[i] == 0) ? 0.0 : 1.0;
       }
@@ -250,10 +250,10 @@ int i;
          if (colorArray[16*i + 4*c + 1] < cursorglow) {
             for (c = 0; c < 4; c++) {
                // Some shade of green if cell is not empty
-               colorArray[16*i + 4*c + 1] = (cellState[i] == 0) ? 0.0 : cursorglow;
+               colorArray[16*i + 4*c + 2] = (cellState[i] == 0) ? 0.0 : cursorglow;
                // Cells which are very bright are slightly whitened
                colorArray[16*i + 4*c + 0] = ((cursorglow > 0.7) && (cellState[i] != 0)) ? (cursorglow - 0.6) : 0.0;
-               colorArray[16*i + 4*c + 2] = ((cursorglow > 0.7) && (cellState[i] != 0)) ? (cursorglow - 0.6) : 0.0;
+               colorArray[16*i + 4*c + 1] = ((cursorglow > 0.7) && (cellState[i] != 0)) ? (cursorglow - 0.6) : 0.0;
                // Transparent if cell is empty, otherwise opaque
                colorArray[16*i + 4*c + 3] = (cellState[i] == 0) ? 0.0 : 1.0;
             }
